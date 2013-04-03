@@ -7,7 +7,7 @@ class SiriProxy::Plugin::Externalip < SiriProxy::Plugin
     url = URI.parse('http://ifconfig.me/ip')
     ip = Net::HTTP.get(url)
     humanreadableip = ip.gsub('', ' ').gsub('.', 'dot')
-    say "You're external IP address is #{ip}", spoken: "You're external IP address is #{humanreadableip}"
+    say "Your external IP address is #{ip}", spoken: "Your external IP address is #{humanreadableip}"
     request_completed
   end
 end
