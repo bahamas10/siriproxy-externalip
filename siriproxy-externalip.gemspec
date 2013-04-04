@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "siriproxy-externalip"
-  s.version     = "0.1"
+  s.version     = "0.2"
   s.authors     = ["Dave Eddy <dave@daveeddy.com>"]
   s.email       = [""]
   s.homepage    = ""
