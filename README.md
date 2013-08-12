@@ -11,7 +11,7 @@ Add this to `~/.siriproxy/config.yml`
 
 ``` yml
 - name: 'ExternalIP'
-  git: 'git://github.com/bahamas10/siriproxy-externalip.git
+  git: 'git://github.com/bahamas10/siriproxy-externalip.git'
 ```
 
 Rebundle and reload
